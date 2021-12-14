@@ -26,6 +26,7 @@ void wifi_connect()
 	WiFi.persistent(false);
 	WiFi.mode(WIFI_STA);
 	WiFi.setAutoReconnect(true);
+  	WiFi.hostname("Fridans");
 	WiFi.begin(ssid, password);
 	Serial.println("WiFi connecting...");
 	while (!WiFi.isConnected())

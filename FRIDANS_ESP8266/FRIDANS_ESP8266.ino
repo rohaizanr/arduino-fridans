@@ -29,6 +29,7 @@ void setup()
   Serial.setRxBufferSize(32);
   Serial.setDebugOutput(false);
   wifi_connect();
+  //homekit_storage_reset(); 
   my_homekit_setup();
 }
 
@@ -87,7 +88,6 @@ void readSerial()
     {
       if (receivedCommand.substring(0, 17).equals("xfinish.position:"))
       {
-
         int currentPosition = receivedCommand.substring(17, receivedCommand.length()).toInt();
         uint8_t value = currentPosition;
 
@@ -99,7 +99,6 @@ void readSerial()
       }
       else if (receivedCommand.substring(0, 17).equals("yfinish.position:"))
       {
-
         int currentPosition = receivedCommand.substring(17, receivedCommand.length()).toInt();
         uint8_t value = currentPosition;
 
