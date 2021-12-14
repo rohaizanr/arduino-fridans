@@ -1,4 +1,4 @@
-# Ikea Fridans Blinds (Motorized with Apple Homekit)
+# Ikea Fridans Hack with Arduino (Apple Homekit)
 
 The reason why I created this project is to be able to control my Ikea Fridans Blinds using my iPhone and Siri. Please excuse my wiring diagrams and mechanical designs because I'm not an Electrical nor a Mechanical Engineer. I spent about a month researching on how to connect these things through Google and Youtube videos. Please help correct my mistakes if you find any by submitting pull requests. Thank you.
 
