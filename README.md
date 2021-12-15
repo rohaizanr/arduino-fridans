@@ -4,9 +4,6 @@
 
 The reason why I created this project is to be able to control my Ikea Fridans Blinds using my iPhone and Siri. Please excuse my wiring diagrams and mechanical designs because I'm not an Electrical nor a Mechanical Engineer. I spent about a month researching on how to connect these things through Google and Youtube videos. Please help correct my mistakes if you find any by submitting pull requests. Thank you.
 
-## Credits
-Special thanks to my wife who have helped me with this project. My daughter, Ayesha for helping me out with the Math calculations and code debugging. My friends, Van Chiang & Ezni, for helping me print the 3D pulley and contributing to this project.
-
 ## Introduction
 This guide is specifically meant for ARDUINO UNO R3 ATMEGA328P ESP8266. It is a dual core Arduino with build in Wifi. The ATMEGA328P core will be used to control the stepper motors, while the ESP8266 core will be used to handle Wifi communication and Apple Homekit. Both of these cores communicates with each other using the onboard Serial.
 
@@ -53,3 +50,6 @@ Once uploaded set 1,2 ON to enable serial communication between the 2 cores.
 
 ## Hardware Installation
 (todo)
+
+## Credits
+Special thanks to my wife who have helped me with this project. My daughter, Ayesha for helping me out with the Math calculations and code debugging. My friends, Van Chiang & Ezni, for helping me print the 3D pulley and contributing to this project. Lastly, to the technical support staffs of http://my.cytron.io 
