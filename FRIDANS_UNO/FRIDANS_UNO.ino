@@ -22,8 +22,8 @@ AccelStepper motorX(1, MOTOR_X_STEP_PIN, MOTOR_X_DIR_PIN);
 #define MOTOR_Y_DIR_PIN 6
 AccelStepper motorY(1, MOTOR_Y_STEP_PIN, MOTOR_Y_DIR_PIN);
 
-// I need 10 revolutions to open/close the window blinds, therefore (11 * 200) * 2 (gear ratio)
-const int MAX_STEPPER_POSITION=4000;
+// I need 10 revolutions to open/close the window blinds, therefore (12 * 200) * 3 (gear ratio)
+const int MAX_STEPPER_POSITION=7200;
 
 // Serial communication
 bool dataIn = false;
@@ -42,14 +42,14 @@ void setup()
   pinMode(MOTOR_Y_ENABLE_PIN, OUTPUT);
 
   motorX.setEnablePin(MOTOR_X_ENABLE_PIN);
-  motorX.setAcceleration(200);
-  motorX.setMaxSpeed(1000);
+  motorX.setAcceleration(250);
+  motorX.setMaxSpeed(500);
   motorX.enableOutputs();
   motorX.setCurrentPosition(0);
 
   motorY.setEnablePin(MOTOR_Y_ENABLE_PIN);
-  motorY.setAcceleration(200);
-  motorY.setMaxSpeed(1000);
+  motorY.setAcceleration(250);
+  motorY.setMaxSpeed(500);
   motorY.enableOutputs();
   motorY.setCurrentPosition(0);
 }
