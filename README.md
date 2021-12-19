@@ -19,8 +19,8 @@ If you wish to purchase the same hardware as I am, just copy paste the item name
 3. A4988 Stepper Motor Driver Module (x2)
 4. NEMA 17HS4401 Bipolar Stepper Motor (x2)
 5. Custom V-Pulley
-    - [stepper-v3.stl](https://github.com/rohaizanr/arduino-fridans/tree/Main/3D)
-    - [fridans-v3.stl](https://github.com/rohaizanr/arduino-fridans/tree/Main/3D)
+    - [stepper-v6.stl](https://github.com/rohaizanr/arduino-fridans/tree/Main/3D)
+    - [fridans-v6.stl](https://github.com/rohaizanr/arduino-fridans/tree/Main/3D)
 6. 3mm Polyurethane Round Belt 
 7. AC-DC Adapter 12V 2A
 8. LED
